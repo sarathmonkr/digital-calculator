@@ -1,0 +1,58 @@
+body{
+	margin: 0px;
+}
+
+
+.calculator{
+	    width: 326px;
+    height: 464px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.9);
+    margin: auto auto;
+    margin-top: 67px;
+
+}
+.result{
+    width: 296px;
+    border: navajowhite;
+    height: 92px;
+    text-align: right;
+    padding: 10px;
+    font-size: 40px;
+    background-color: black;
+    color: grey;
+}
+
+.display{
+	    width: 317px;
+    background-color: black;
+    height: 120px;
+    padding: 4px;
+}
+
+
+
+.display p{
+	color: white;
+    font-size: 30px;
+    text-align: right;
+}
+.button{
+	margin: 7px;
+    width: 64px;
+    border-width: 0px;
+    border-radius: 50%;
+    height: 53px;
+    background-color: transparent;
+    color: white;
+
+}
+.button:hover
+{
+    color: gold;
+}
+.material-icons
+{
+    width: 5px;
+    height: 5px;
+}

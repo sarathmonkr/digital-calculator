@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	
+</head>
+<body>
+<div class="main">
+					<div class="calculator">
+								<div class="display">
+									
+									
+
+									<input type="text" placeholder="0" class="result" id="result" name="">
+									
+
+								</div>
+
+
+
+
+								<div class="panel1">
+									<div class="row1">
+										<button id="%" onclick="number('%')"  class="button">%</button>
+										<button id="c" onclick="clear1()" class="button"><</button>
+										<button id=bs class="button" onclick="clearScreen()">C</button>
+										<button id="/" onclick="number('/')" class="button">&divide;</button>
+									</div>
+
+
+									<div class="row1">
+										<button id="7" onclick="number(7)"  class="button">7</button>
+										<button id="8" onclick="number(8)" class="button">8</button>
+										<button id="9" onclick="number(9)" class="button">9</button>
+										<button id="*" onclick="number('*')" class="button">&#215;</button>
+									</div>
+
+									<div class="row1">
+										<button id=4 onclick="number(4)" class="button">4</button>
+										<button id="5" onclick="number(5)" class="button">5</button>
+										<button id="6" onclick="number(6)" class="button">6</button>
+										<button id="-" class="button" onclick="number('-')">-</button>
+									</div>
+
+									<div class="row1">
+										<button id="1" value="1" onclick="number(1)" class="button">1</button>
+										<button id="2" onclick="number(2)" value="2" class="button">2</button>
+										<button id="3" onclick="number(3)" value="3" class="button">3</button>
+										<button id="+" class="button" onclick="number('+')">+</button>
+									</div>
+
+
+									<div class="row1">
+										<button class="button" onclick="number('00')"  >00</button>
+										<button onclick="number(0)" class="button">0</button>
+										<button class="button" onclick="number('.')">.</button>
+										<button class="button" onclick="equels()">=</button>
+									</div> 
+
+
+
+
+					</div>	
+
+
+
+
+
+</div>
+	<script type="text/javascript" src="js/calc.js"></script>
+</body>
+</html>
