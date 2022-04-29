@@ -17,5 +17,5 @@ val.value=val.value.substring(0,val.value.length-1);
 }
 
 function clearScreen(){
- val.value="0";
+ val.value="";
  }
