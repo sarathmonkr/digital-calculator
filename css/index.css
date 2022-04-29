@@ -1,5 +1,6 @@
 body{
 	margin: 0px;
+    background-color: #FDEFEF;
 }
 
 
@@ -7,7 +8,8 @@ body{
 	    width: 326px;
     height: 464px;
     margin-top: 10px;
-    background: rgba(0, 0, 0, 0.9);
+    /*background: rgba(0, 0, 0, 0.9);*/
+    background-color: #F4DFD0;
     margin: auto auto;
     margin-top: 67px;
 
@@ -24,7 +26,7 @@ body{
 }
 
 .display{
-	    width: 317px;
+	        width: 317px;
     background-color: black;
     height: 120px;
     padding: 4px;
@@ -32,11 +34,7 @@ body{
 
 
 
-.display p{
-	color: white;
-    font-size: 30px;
-    text-align: right;
-}
+
 .button{
 	margin: 7px;
     width: 64px;
@@ -44,15 +42,18 @@ body{
     border-radius: 50%;
     height: 53px;
     background-color: transparent;
-    color: white;
+    color: black;
+    font-weight: 700;
 
 }
 .button:hover
 {
-    color: gold;
+    color: blue;
+    
 }
 .material-icons
 {
     width: 5px;
     height: 5px;
 }
+
